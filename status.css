@@ -1,0 +1,55 @@
+/* status.css */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.server-status {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.online {
+    background-color: #00ff00;
+}
+
+.offline {
+    background-color: #ff0000;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.button-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button-container a:hover {
+    background-color: #2980b9;
+}

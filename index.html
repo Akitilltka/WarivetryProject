@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WarivetryProject</title>
+</head>
+
+<body>
+
+    <!-- Навигационное меню -->
+    <section class="navigation">
+        <div class="container">
+            <div class="avatar">
+                <img src="автаарка.png" alt="Bot Avatar">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#main-menu">Главная</a></li>
+                    <li><a href="#features">Особенности</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="status.html">Статус серверов</a></li>
+
+                </ul>
+            </nav>
+        <!-- Добавлен раздел "Регистрация/Войти" справа -->
+
+    </section>
+
+    <!-- Секция "Главная" -->
+    <section class="main-menu" id="main-menu">
+        <div class="container">
+            <div class="logo">
+                <h1 class="animate">WarivetryProject</h1>
+                <p class="animate">Модерация. RolePlay. Защита</p>
+                <div id="serverStatusContainer">
+                    <button id="btn" onclick="window.location.href='https://discord.com/api/oauth2/authorize?client_id=1190355118906937414&permissions=8&scope=bot';" class="animate">Добавить бота</button>                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Особенности" -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="feature">
+                <div class="text feature-text">
+                    <h2 class="animate">Встречайте! Система уровней!</h2>
+                    <p class="animate">Система уровней уже доступна для вас! Спасибо за поддержку.</p>
+                </div>
+                <div class="screenshot">
+                    <img src="ping.png" alt="Тут должен быть скриншот особенности, но по каким-то причинам он не загрузился :(">
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="text feature-text">
+                    <h2 class="animate">Системы защиты уже в боте!</h2>
+                    <p class="animate">Встречайте! Антикапс/антиспам/антиреклама/антипинг уже в боте!</p>
+                </div>
+                <div class="screenshot">
+                    <img src="pings.png" alt="Скриншот особенности 2">
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="text feature-text">
+                    <h2 class="animate">RolePlay Уже тут!</h2>
+                    <p class="animate">Отыгрывайте RolePlay на своих любимых серверах! </p>
+                </div>
+                <div class="screenshot">
+                    <img src="me.png" alt="Скриншот особенности 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Контакты" -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="animate">Связаться с нами</h2>
+            <p class="animate">Если у вас есть вопросы или предложения, не стесняйтесь связаться с нами!</p>
+            <a href="https://discord.gg/a6MWdFKEbt" class="animate">https://discord.gg/a6MWdFKEbt</a>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <p class="animate">&copy; 2024 WarivetryProject</p>
+            <a href="https://top.gg/bot/1190355118906937414">
+                <img src="https://top.gg/api/widget/upvotes/1190355118906937414.svg">
+              </a>
+              <a href="https://top.gg/bot/1190355118906937414">
+                <img src="https://top.gg/api/widget/owner/1190355118906937414.svg">
+              </a>
+
+        </div>
+    </footer>
+    <div class="cookie-banner">
+        <p>Мы используем файлы cookie для сбора данных. Продолжая использовать сайт, вы соглашаетесь с этим.</p>
+        <button onclick="hideCookieBanner()">Согласен</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
